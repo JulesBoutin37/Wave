@@ -87,7 +87,7 @@ li{
 }
 
 .item_group{
-    border-radius: 2.5% / 7%;
+    border-radius: 2.8% / 5%;
     font-size: 200%;
 }
 
@@ -107,4 +107,8 @@ a:hover{
 
 .item:hover{
     background: linear-gradient(90deg, rgb(255, 172, 100), white);
+}
+
+.item:active{
+    background: linear-gradient(90deg, rgb(255, 155, 68), white);
 }
