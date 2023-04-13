@@ -112,3 +112,14 @@ a:hover{
 .item:active{
     background: linear-gradient(90deg, rgb(255, 155, 68), white);
 }
+
+#corps{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-indent: 5%;
+    text-align: justify;
+}
