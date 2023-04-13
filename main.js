@@ -1,12 +1,24 @@
-input_logo_menu = false
+logo_menu_var = false
+taille_item_bool = false
 
 function logo_menu() {
-    if (input_logo_menu == false){
-        input_logo_menu = true
+    if (logo_menu_var == false){
+        logo_menu_var = true
         return 0
     }
-    if (input_logo_menu == true) {
-        input_logo_menu = false
+    if (logo_menu_var == true) {
+        logo_menu_var = false
         return -23
+    }
+}
+
+function taille_item() {
+    if (taille_item_bool == false){
+        taille_item_bool = true
+        return 100
+    }
+    if (taille_item_bool == true) {
+        taille_item_bool = false
+        return 20
     }
 }
