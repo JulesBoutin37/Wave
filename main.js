@@ -11,14 +11,3 @@ function logo_menu() {
         return -23
     }
 }
-
-function taille_item() {
-    if (taille_item_bool == false){
-        taille_item_bool = true
-        return 100
-    }
-    if (taille_item_bool == true) {
-        taille_item_bool = false
-        return 20
-    }
-}
